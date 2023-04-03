@@ -4,5 +4,5 @@ print("Goodbye Cruel World")
 x="dil"
 y="garden"
 print("{} {} {} ho gaya".format(x,y,y))
-print(x y y +"ho gaya")
+print(x+" "+y+" "+y+" ho gaya")
 print(f"{x} {y} {y} ho gaya")
