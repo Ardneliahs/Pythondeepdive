@@ -1,5 +1,5 @@
 import os, time
-filedir = "/opt/test"
+filedir = "/root/Pythondeepdive"
 now_epoch = int(time.time())
 for each_file in os.listdir(filedir):
     file_path = os.path.join(filedir,each_file)
