@@ -9,3 +9,4 @@ for each_file in os.listdir(filedir):
         if now_epoch - filemtime > 14400:
             is_modified = True
 print(is_modified)
+## True if files not modified in last 4 hours
