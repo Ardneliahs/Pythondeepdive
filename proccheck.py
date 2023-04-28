@@ -10,8 +10,8 @@ try:
 except:
     print('UNKNOWN [script error]')
     sys.exit(3)
-sssd_proc = psutil.Process(sssd_id)
-sssd_start = int(sssd_proc.create_time())
+named_proc = psutil.Process(named_id)
+named_start = int(named_proc.create_time())
 now_epoch = int(time.time())
 if now_epoch - named_start < 1800:
     print("CRITICAL")
