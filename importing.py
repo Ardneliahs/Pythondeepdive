@@ -1,2 +1,7 @@
 import imported
-print(imported.sum(4,5))
+
+def main():
+    print(imported.sum(4,5))
+
+if __name__ == "__main":
+    main()
